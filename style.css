@@ -67,3 +67,17 @@ body {
 .purple {
     background-color: blueviolet;
 }
+
+@media (max-width:768px) {
+    .key {
+        width: 75%;
+    }
+    .colors {
+        width: 80%;
+        height: 15vh;
+    }
+    .color {
+        width: 75%;
+        height: 10vh;
+    }
+}
