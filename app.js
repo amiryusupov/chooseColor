@@ -1,6 +1,6 @@
 const container = document.querySelector('.colors')
 const cards = document.querySelectorAll('.color')
-var i = 1
+var i = 0
 
 document.body.addEventListener('keydown', (event)=> {
     event.preventDefault()
